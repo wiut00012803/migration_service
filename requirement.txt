@@ -1,0 +1,12 @@
+Django
+djangorestframework
+pytest
+
+
+
+pytest-django
+mypy
+django-stubs
+djangorestframework-stubs
+black
+isort
