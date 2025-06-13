@@ -122,8 +122,10 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
+SECRET_KEY = 'your-secret-key-here'
 DEBUG = True
 
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
