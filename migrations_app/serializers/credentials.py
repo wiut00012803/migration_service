@@ -6,5 +6,4 @@ from ..models.credentials import Credentials
 class CredentialsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Credentials
-        fields = ['username', 'password', 'domain']
-       
+        fields = ['id', 'username', 'password', 'domain']

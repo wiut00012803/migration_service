@@ -2,7 +2,7 @@ from django.db import models
 
 
 class MountPoint(models.Model):
-    name = models.CharField(max_length=255)  # e.g., "c:\"
+    name = models.CharField(max_length=255)
     total_size = models.IntegerField()
     workload = models.ForeignKey(
         'Workload',

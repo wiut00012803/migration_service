@@ -6,4 +6,4 @@ from ..models.mount_point import MountPoint
 class MountPointSerializer(serializers.ModelSerializer):
     class Meta:
         model = MountPoint
-        fields = ['name', 'total_size', 'workload']
+        fields = ['id', 'name', 'total_size', 'workload']

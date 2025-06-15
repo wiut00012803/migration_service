@@ -1,7 +1,9 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
+
 from ..models.workload import Workload
 from ..serializers.workload import WorkloadSerializer
+
 
 class WorkloadViewSet(viewsets.ModelViewSet):
     queryset = Workload.objects.all()
